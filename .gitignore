@@ -1,0 +1,24 @@
+# Ignore the environment file (Secrets)
+.env
+
+# Ignore Docker database storage (Data belongs in volumes, not Git)
+db_data/
+
+# Ignore WordPress Core files (Docker handles these)
+/wp-admin/
+/wp-includes/
+/*.php
+!/wp-config-sample.php
+
+# Ignore heavy media and cache
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+
+# Keep your custom work, but ignore default themes/plugins
+/wp-content/themes/twenty*
+/wp-content/plugins/hello.php
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
