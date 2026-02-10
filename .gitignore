@@ -15,10 +15,6 @@ db_data/
 /wp-content/cache/
 /wp-content/upgrade/
 
-# Keep your custom work, but ignore default themes/plugins
-/wp-content/themes/twenty*
-/wp-content/plugins/hello.php
-
 # Ignore OS junk
 .DS_Store
 Thumbs.db
